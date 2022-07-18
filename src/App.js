@@ -9,7 +9,7 @@ import {BrowserRouter as Router, Route,Routes} from "react-router-dom"
 
 function App() {
   return (
-    
+    <div className="App">
     <Router>
       <Navbar/>
       <Routes>
@@ -20,7 +20,7 @@ function App() {
       </Routes>
       <Footer/>
     </Router>
-   
+    </div>
   );
 }
 
