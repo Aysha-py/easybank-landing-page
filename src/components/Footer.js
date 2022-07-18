@@ -9,7 +9,7 @@ import Button from './Button'
 const Footer = () => {
     const socials =[ twitter, youtube,pinterest,instagram,facebook]
   return (
-   <>
+   <div id='root'>
     <div className='footer'>
       <div className='Footer-left'>
         <div className='socials'>
@@ -49,7 +49,7 @@ const Footer = () => {
     <div className='credit'>
          <p>Design Challenge by Frontend Mentor.io. Redesigned and coded by Aishat Muhammed.</p>
      </div>
-   </>
+   </div>
   )
 }
 

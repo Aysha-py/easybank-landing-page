@@ -56,23 +56,21 @@ const Navbar = () => {
       }
    
   return (
+    <div id='root'>
     <div className='navbar'>
         <div className='nav-logo'>
             <img src={logo} alt="company-logo"/>
         </div>
         <div className='navbar-list'>
-            <ul className='navbar-list-item' >
+            <div className='navbar-list-item' >
                 {
                     items.map((navitem,index) => (
-
-                        <>
                             <ul>
                                 <li key={index}><Link to ={navitem.Link}>{navitem.page}</Link></li>
                             </ul>
-                        </>
                     ))
                 } 
-            </ul>
+            </div>
         </div>
         <div className='invite'>
         {
@@ -106,6 +104,7 @@ const Navbar = () => {
         </div> : "" }
         </div>
     
+    </div>
     </div>
   )
 }

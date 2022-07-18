@@ -46,7 +46,7 @@ const [width,setWidth] = useState(window.innerWidth)
         }, []);
       
   return (
-
+    <div id='root'>
     <div className='mainPage'>
         <div className='main-content'>
             <div className='details'>
@@ -91,6 +91,7 @@ const [width,setWidth] = useState(window.innerWidth)
           
         </div>
 
+    </div>
     </div>
 
     

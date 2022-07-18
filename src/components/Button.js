@@ -8,8 +8,9 @@ const Button = ({
 
 
   return (
-
-    <button>{children}</button>
+    <div id='root'>
+      <button>{children}</button>
+    </div>
   
   )
 }
