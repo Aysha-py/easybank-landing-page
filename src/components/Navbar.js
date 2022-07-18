@@ -64,9 +64,11 @@ const Navbar = () => {
             <ul className='navbar-list-item' >
                 {
                     items.map((navitem,index) => (
+
                         <>
-                            <Link to ={navitem.Link}><li key={index}>{navitem.page}</li></Link>
-                         
+                            <ul>
+                                <li key={index}><Link to ={navitem.Link}>{navitem.page}</Link></li>
+                            </ul>
                         </>
                     ))
                 } 

@@ -12,7 +12,7 @@ const Footer = () => {
    <>
     <div className='footer'>
       <div className='Footer-left'>
-        <section className='socials'>
+        <div className='socials'>
             <div className='logo'>
                <img src={logo} alt='logo' className='footerLogo'/>
             </div>
@@ -21,23 +21,23 @@ const Footer = () => {
                <img src={social} alt='socialMedia' className='social-icon' key={index}/>
             ))
            }
-        </section>
-        <section className='footer-nav'>
+        </div>
+        <div className='footer-nav'>
            <ul className='footer-navlist'>
               <li>About Us</li>
               <li>Contact</li>
               <li>Blog</li>
            </ul>
         
-        </section>
-        <section className='footer-nav'>
+        </div>
+        <div className='footer-nav'>
            <ul className='footer-navlist'>
               <li>Careers</li>
               <li>Support</li>
               <li>Privacy Policy</li>
            </ul>
         
-        </section>
+        </div>
       </div>
       <div className='footer-right'>
            <Button children={"Request Invite"} />
