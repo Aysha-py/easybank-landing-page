@@ -5,7 +5,7 @@
 }
 html p{
     color: hsl(233, 8%, 62%);
-    font-family: 'Epilogue', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 @import url(./styles/Navbar.css);
