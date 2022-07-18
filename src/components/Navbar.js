@@ -56,7 +56,7 @@ const Navbar = () => {
       }
    
   return (
-    <div id='root'>
+    
     <div className='navbar'>
         <div className='nav-logo'>
             <img src={logo} alt="company-logo"/>
@@ -104,7 +104,6 @@ const Navbar = () => {
         </div> : "" }
         </div>
     
-    </div>
     </div>
   )
 }

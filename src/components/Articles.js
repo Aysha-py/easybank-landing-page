@@ -35,7 +35,6 @@ const articles = () => {
     }
 ]
   return (
-    <div id='rot'>
     <div className='ArticleContent'>
     <h1>Latest Articles</h1>
         <div className='articleTiles'>
@@ -52,7 +51,6 @@ const articles = () => {
                 ))
             }
         </div>
-    </div>
     </div>
   )
 }
