@@ -7,6 +7,7 @@ import onboarding from "../assets/images/icon-onboarding.svg"
 import online from "../assets/images/icon-online.svg"
 import api from "../assets/images/icon-api.svg"
 import Button from '../components/Button'
+import Articles from "../components/Articles"
 
 const MainPage = () => {
     const cards =[{
@@ -90,7 +91,8 @@ const [width,setWidth] = useState(window.innerWidth)
             </div>
           
         </div>
-
+        <Articles />
+        
     </div>
     
 

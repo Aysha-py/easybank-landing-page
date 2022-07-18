@@ -12,12 +12,15 @@ function App() {
     <div className="App">
     <Router>
       <Navbar/>
+      
       <Routes>
         
           <Route path='/' element={<MainPage/>}/>
           <Route path='/blog' element={<Articles/>}/>
+        
          
       </Routes>
+    
       <Footer/>
     </Router>
     </div>
