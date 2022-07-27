@@ -3,6 +3,7 @@ import currency from '../assets/images/image-currency.jpg'
 import confetti from '../assets/images/image-confetti.jpg'
 import plane from '../assets/images/image-plane.jpg'
 import restaurant from '../assets/images/image-restaurant.jpg'
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const articles = () => {
     const Articles =[{
@@ -37,6 +38,8 @@ const articles = () => {
   return (
     <div className='ArticleContent'>
     <h1>Latest Articles</h1>
+    <AnimationOnScroll animateIn="animate__bounceIn">
+
         <div className='articleTiles'>
             
             {
@@ -51,6 +54,7 @@ const articles = () => {
                 ))
             }
         </div>
+    </AnimationOnScroll>
     </div>
   )
 }

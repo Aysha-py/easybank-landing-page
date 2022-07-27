@@ -8,6 +8,7 @@ import online from "../assets/images/icon-online.svg"
 import api from "../assets/images/icon-api.svg"
 import Button from '../components/Button'
 import Articles from "../components/Articles"
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const MainPage = () => {
     const cards =[{
@@ -51,6 +52,7 @@ const [width,setWidth] = useState(window.innerWidth)
     <div className='mainPage'>
         <div className='main-content'>
             <div className='details'>
+            
                 <h1> Next generation digital banking </h1>
                 <p>Take your financial life online. Your easy bank account wil be a one-stop-shop for 
                     spending, saving, budgeting, investing and much more.
@@ -69,15 +71,19 @@ const [width,setWidth] = useState(window.innerWidth)
             </div>
            
         </div>
+        
         <div className='Tiles'>
         
             <div className='why'>
+            
                 <h1> Why Choose EasyBank? </h1>
                 <p>We leverage open banking to turn your bank account into ypur financial
                     hub. Control your finances like never before.
                 </p>
+          
+            
             </div>
-
+            <AnimationOnScroll animateIn="animate__bounceIn">
             <div className='cardTiles'>
                 {
                     cards.map((card)=>(
@@ -89,7 +95,8 @@ const [width,setWidth] = useState(window.innerWidth)
                     ))
                 }
             </div>
-          
+        
+            </AnimationOnScroll>
         </div>
         <Articles />
         
