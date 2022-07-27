@@ -38,7 +38,7 @@ const articles = () => {
   return (
     <div className='ArticleContent'>
     <h1>Latest Articles</h1>
-    <AnimationOnScroll animateIn="animate__bounceIn">
+   
 
         <div className='articleTiles'>
             
@@ -54,7 +54,7 @@ const articles = () => {
                 ))
             }
         </div>
-    </AnimationOnScroll>
+
     </div>
   )
 }
