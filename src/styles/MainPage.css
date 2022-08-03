@@ -1,7 +1,7 @@
 .main-content{  
     background-color: hsl(0, 0%, 98%);
     display: flex;
-    margin-right: -50px;
+   
     
 
 }
@@ -9,7 +9,7 @@
     width: 40%;
     padding:5em;
     line-height: 1.5;    
-    margin-left: 50px;
+    
 }
 
 .details button{
